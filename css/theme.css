@@ -1409,7 +1409,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-doctor:hover .header .meta {
-  bottom: 15px;
+  bottom: 30px;
   visibility: visible;
   opacity: 1;
 }
@@ -1417,9 +1417,9 @@ a.text-dark:hover, a.text-dark:focus {
 .card-doctor .header .meta a {
   display: inline-block;
   margin: 3px;
-  width: 40px;
-  height: 40px;
-  line-height: 43px;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
   border-radius: 50%;
   text-align: center;
   background-color: #444;
@@ -1433,7 +1433,9 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #fff;
   color: #000;
 }
-
+.svg-inline--fa{
+  font-size: 25px;
+}
 .card-doctor .header img {
   width: 100%;
 }
@@ -1845,9 +1847,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .footer-sosmed a {
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  line-height: 42px;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
   border-radius: 50%;
   text-align: center;
   font-size: 18px;
@@ -1900,9 +1902,10 @@ a.text-dark:hover, a.text-dark:focus {
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
   display: inline-block;
-  padding: 6px 0 !important;
+  padding: 6px 0 5px 0 !important;
   background-color: #a2a2a2;
   color: #fff;
+  font-size: 22px;
 }
 .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-next:active,
 .owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-prev:active{
@@ -1934,7 +1937,17 @@ a.text-dark:hover, a.text-dark:focus {
 .bg-green{
   background: #85676e;
 }
-
+.bg-green:hover{
+  background: #9c8187;
+}
+.tel-salon{
+  color: #302528;
+  margin-left: 10px;
+}
+.tel-salon:hover{
+  color: #85676e;
+  text-decoration: none;
+}
 @media (min-width: 1024px){
   .circle-shape {
     width: 40px;
@@ -1972,7 +1985,7 @@ a.text-dark:hover, a.text-dark:focus {
   .circle-shape {
     width: 50px;
     height: 50px;
-    line-height: 55px;
+    line-height: 50px;
     font-size: 25px;
   }
   .card-doctor{
